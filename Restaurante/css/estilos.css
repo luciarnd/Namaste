@@ -113,3 +113,47 @@ a:hover {
     background-color: #6d562a;
     cursor: pointer;
 }
+
+.contenedor-fotos-carta {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contenedor-fotos-carta img {
+    margin: 10px;
+    width: 97%;
+    height: 500px;
+}
+
+footer {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+footer p,  footer a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mapa-navegacion {
+    padding: 30px;
+}
+
+.mapa-navegacion li {
+    padding: 10px;
+    text-align: left;
+}
+
+.horario-rrss img {
+    width: 200px;
+}
